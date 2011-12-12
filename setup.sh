@@ -34,3 +34,4 @@ cd voldemort-${voldemort_version}
 echo "Starting Voldemort..."
 bin/voldemort-server.sh config/single_node_cluster > /tmp/voldemort.log &
 cd ../..
+echo "Setup done!"
