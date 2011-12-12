@@ -25,12 +25,6 @@ This takes a while, since we must download, patch and build Apache Pig.
 
 Python isn't working yet, owing to a problem building python-snappy :(
 
-<!-- The Python setup takes a while to compile.
-
-    cd src/python
-    python ./setup.py
-    cd ../.. -->
-
 Creating Records
 ----------------
 
@@ -41,9 +35,6 @@ Creating Records
     cd ../..
 
 ### Python
-
-    <!-- cd src/python -->
-    
 
 Processing Data with Pig
 ------------------------
@@ -67,8 +58,6 @@ Publishing Data with Voldemort
 
 ### Python
 
-    <!-- cd src/python -->
-
 Viewing Records in a One-Page Web Application
 ---------------------------------------------
 
@@ -78,7 +67,6 @@ Viewing Records in a One-Page Web Application
     bundle exec ruby web.rb
 
 ### Python
-
     
 ### Browser
 
