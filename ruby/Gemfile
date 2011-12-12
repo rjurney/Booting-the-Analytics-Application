@@ -1,9 +1,0 @@
-source :rubygems
-
-gem "nokogiri"
-gem "ruby_protobuf"
-gem "rack"
-gem "sinatra"
-gem "avro"
-gem "voldemort-rb"
-gem "json"
