@@ -29,6 +29,7 @@ echo "Installing Voldemort ${voldemort_version}..."
 cd lib
 wget --no-check-certificate https://github.com/downloads/voldemort/voldemort/voldemort-0.90.1.tar.gz
 tar -xvzf voldemort-${voldemort_version}.tar.gz
+rm voldemort-${voldemort_version}.tar.gz
 cd voldemort-${voldemort_version}
 echo "Starting Voldemort..."
 bin/voldemort-server.sh config/single_node_cluster > /tmp/voldemort.log &

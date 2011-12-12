@@ -8,6 +8,10 @@ Installation & Setup
 
 ### General
 
+Note: You will have to enter the root password for sudo to install some components.
+
+This takes a while, since we must download, patch and build Apache Pig.
+
     ./setup.sh
 
 ### Ruby
@@ -19,8 +23,11 @@ Installation & Setup
 
 ### Python
 
-    
-    
+The Python setup takes a while to compile.
+
+    cd src/python
+    python ./setup.py
+    cd ../..
 
 Creating Records
 ----------------
@@ -33,6 +40,7 @@ Creating Records
 
 ### Python
 
+    cd src/python
     
 
 Processing Data with Pig
@@ -57,7 +65,7 @@ Publishing Data with Voldemort
 
 ### Python
 
-    
+    cd src/python
 
 Viewing Records in a One-Page Web Application
 ---------------------------------------------
