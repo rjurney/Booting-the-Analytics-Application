@@ -70,5 +70,5 @@ Viewing Records in a One-Page Web Application
     
 ### Browser
 
-Now check out (http://localhost:4567/messages_per_user_id/1) (http://localhost:4567/messages_per_user_id/2)
+Now check out [http://localhost:4567/messages_per_user_id/1](http://localhost:4567/messages_per_user_id/1) [http://localhost:4567/messages_per_user_id/2](http://localhost:4567/messages_per_user_id/2)
 
