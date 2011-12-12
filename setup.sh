@@ -1,4 +1,5 @@
 pig_version=0.9.1
+voldemort_version=0.90.1
 
 echo "Installing Pig ${pig_version}..."
 mkdir lib
@@ -24,5 +25,11 @@ export CLASSPATH=$CLASSPATH:$PATH/lib/pig-${pig_version}/build/ivy/lib/Pig/avro-
 :$PATH/lib/pig-${pig_version}/build/ivy/lib/Pig/jackson-core-asl-1.6.0.jar\
 :$PATH/lib/pig-${pig_version}/build/ivy/lib/Pig/jackson-mapper-asl-1.6.0.jar
 
-echo "Installing bundler..."
-gem install bundler
+echo "Installing Voldemort ${voldemort_version}..."
+cd lib
+wget --no-check-certificate https://github.com/downloads/voldemort/voldemort/voldemort-0.90.1.tar.gz
+tar -xvzf voldemort-${voldemort_version}.tar.gz
+cd voldemort-${voldemort_version}
+echo "Starting Voldemort..."
+bin/voldemort-server.sh config/single_node_cluster > /tmp/voldemort.log &
+cd ../..
