@@ -23,11 +23,13 @@ This takes a while, since we must download, patch and build Apache Pig.
 
 ### Python
 
-The Python setup takes a while to compile.
+Python isn't working yet, owing to a problem building python-snappy :(
+
+<!-- The Python setup takes a while to compile.
 
     cd src/python
     python ./setup.py
-    cd ../..
+    cd ../.. -->
 
 Creating Records
 ----------------
@@ -40,7 +42,7 @@ Creating Records
 
 ### Python
 
-    cd src/python
+    <!-- cd src/python -->
     
 
 Processing Data with Pig
@@ -65,7 +67,7 @@ Publishing Data with Voldemort
 
 ### Python
 
-    cd src/python
+    <!-- cd src/python -->
 
 Viewing Records in a One-Page Web Application
 ---------------------------------------------
@@ -80,5 +82,5 @@ Viewing Records in a One-Page Web Application
     
 ### Browser
 
-Now check out http://localhost:4567/messages_per_user_id/1 http://localhost:4567/messages_per_user_id/2
+Now check out (http://localhost:4567/messages_per_user_id/1) (http://localhost:4567/messages_per_user_id/2)
 
