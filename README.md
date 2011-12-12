@@ -3,10 +3,31 @@ Booting the Analytics Application
 
 This is an example application you can use to get started building analytics applications using Ruby/Python, Pig/Hadoop, NoSQL stores and one-page web applications.
 
-Contributing
-------------
+Installation & Setup
+--------------------
 
-Want to contribute? Great! There are two ways to add markups.
+    ./setup.sh
 
+### Ruby
 
-### Commands
+    sudo gem install bundler
+    bundle install
+
+### Python
+
+    
+    
+
+Creating Records
+----------------
+
+### Ruby
+
+     cd 
+
+### Python
+
+    
+
+Data Processing with Pig
+------------------------
