@@ -72,3 +72,9 @@ Viewing Records in a One-Page Web Application
 
 Now check out [http://localhost:4567/messages_per_user_id/1](http://localhost:4567/messages_per_user_id/1) [http://localhost:4567/messages_per_user_id/2](http://localhost:4567/messages_per_user_id/2)
 
+You will see something like this:
+
+    [{"message_id":12},{"message_id":11}]
+
+Which you can wrap into an interface.
+
